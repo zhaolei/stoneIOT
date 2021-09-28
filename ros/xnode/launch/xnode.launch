@@ -1,0 +1,5 @@
+<launch>
+    <node name="xnode_talk_pub" pkg="xnode" type="talker.py"/>
+    <node name="xnode_listen_pub" pkg="xnode" type="listener.py"/>
+    <node name="xnode_add_pub" pkg="xnode" type="add_server.py"/>
+</launch>
